@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(77, 147, 175);
+    color: rgb(255, 181, 83);
+    outline:0;
+}
+.main{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 90px;
+}
+.buttons > .counter{
+    font-weight: bold;
+    font-size: 50px;
+    height: 100px;
+    padding: 10px 50px;
+    background-color: rgb(64, 113, 204);
+    border-radius: 5px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.buttons > .counter:hover{
+    transition: ease-in 0.1s;
+    box-shadow: 2px 3px;
+}
+.buttons > .counter:active{
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(102, 131, 185) ;
+}
