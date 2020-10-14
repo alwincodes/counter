@@ -8,7 +8,7 @@ addCount.addEventListener("click",add);
 delCount.addEventListener("click",del);
 //functions
 function colour(num){
-    if(num % 2 == 0){
+    if(num % 2 == 0 || num == 0 ){
          body.classList.add("even");
     }
     else{
